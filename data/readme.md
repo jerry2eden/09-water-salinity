@@ -9,10 +9,10 @@ drew world attention to the biological response to the dramatic Pacific-warming 
 “El Niño” into the scientific literature.
 
 # Content
-There are two datasets in this folder. [That can be downloaded here](https://www.kaggle.com/sohier/calcofi) Each dataset has several dozen columns;
+There are two datasets [that can be downloaded here](https://www.kaggle.com/sohier/calcofi) Each dataset has several dozen columns;
 1. bottle.csv
 2. cast.csv
 
-The data descriptions of the two dataset are;
-3. bottle_data_description for bottle.csv
-4. cast_data_description for cast.csv
+The data descriptions of the two dataset are available in the data folder;
+1. bottle_data_description for bottle.csv
+2. cast_data_description for cast.csv
