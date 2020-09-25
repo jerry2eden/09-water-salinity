@@ -1,0 +1,74 @@
+Column Header,Units,Description
+Cst_Cnt,n.a.,Auto-numbered Cast Count - all casts consecutively numbered. 1 is first station done
+Btl_Cnt,n.a,"Auto-numbered Bottle count- all bottles ever sampled, consecutively numbered"
+Sta_ID,Text,CalCOFI Line and Station
+Depth_ID,n.a.,[Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta][Depth][Bottle]-[Rec_Ind]
+Depthm,meters,Depth in meters
+T_degC,Degrees C,Temperature of Water
+Salnty,"Practical Salinity Scale, 1978 (UNESCO, 1981a)",Salinity of water
+O2ml_L,Oxygen in mL/L,Milliliters of dissolved oxygen per Liter seawater
+STheta,n.a.,Potential Density of Water
+02Sat,Percent Saturation,Oxygen Saturation
+Oxy_umol/kg,µmol/Kg,Oxygen in micro moles per kilogram of seawater
+BtlNum,n.a.,Bottle Number
+Reclnd,n.a.,Record Indicator
+T_prec,n.a.,Temperature Units of Precision
+T_qual,n.a.,Temperature Quality Code
+S_prec,n.a,Salinity Units of Precision
+S_qual,n.a,Salinity Quality Code
+P_qual,n.a.,Pressure Quality Code
+O_qual,n.a.,Oxygen Quality Code
+SThatq,n.a.,Sigma Theta Quality Code
+O2Satq,n.a.,Oxygen Saturation Quality Code
+ChlorA,µg/L,Acetone extracted chlorophyll-a measured fluorometrically
+Chlqua,n.a.,Chlorophyll-a Quality Code
+Phaeop,µg/L,Phaeophytin concentration measured fluorometrically
+Phaqua,n.a.,Phaeophytin Quality Code
+PO4µM,micro Moles per Liter,Phosphate concentration
+PO4q,n.a.,Phosphate Quality Code
+SiO3µM,micro Moles per Liter,Silicate concentration
+SiO3qu,n.a.,Silicate Quality Code
+NO2µM,micro Moles per Liter,Nitrite concentration
+NO2q,n.a.,Nitrite Quality Code
+NO3µM,micro Moles per Liter,Nitrate concentration
+NO3q,n.a.,Nitrate Quality Code
+NH3µM,micro Moles per Liter,Ammonium concentration
+NH3q,n.a.,Ammonium Quality Code
+C14As1,milligrams Carbon per cubic meter per half light day,14C Assimilation of replicate 1
+C14A1p,n.a.,14C Assimilation of replicate 1 precision
+C14A1q,n.a.,14C As1 Quality Code
+C14As2,n.a.,14C Assimilation of replicate 2
+C14A2p,n.a.,14C Assimilation of replicate 2 precision
+C14A2q,n.a.,14C As2 Quality Code
+DarkAs,milligrams Carbon per cubic meter per half light day,14C Assimilation Dark Bottle
+DarkAp,n.a.,14C Assimilation Dark Bottle precision
+DarkAq,n.a.,14C Assimilation Dark Bottle Quality Code
+MeanAs,milligrams Carbon per cubic meter per half light day,Mean 14C Assimilation of Bottle 1 and 2
+MeanAp,n.a.,Mean 14C Assimilation of Bottle 1 and 2 precision
+MeanAq,n.a.,Mean 14C Assimilation Quality Code
+IncTim,n.a.,Incubation time
+LightP,percent,Light intensities expressed as a percentage
+R_Depth,Meters,Reported Depth in Meters
+R_TEMP,Deg C,Reported Temperature
+R_POTEMP,Deg C,Reported Potential Temperature
+R_SALINITY,"Practical Salinity Scale, 1978 (UNESCO, 1981a)",Reported Salinity
+R_SIGMA,n.a.,Reported Potential Density of water
+R_SVA,n.a.,Reported Specific Volume Anomaly
+R_DYNHT,Dynamic Meters,Reported Dynamic Height
+R_02,Oxygen in mL/L,Reported milliliters of oxygen per liter of seawater
+R_O2Sat,Percent,Reported Oxygen Saturation
+R_SIO3,micro Moles per Liter,Reported Silicate Concentration
+R_PO4,micro Moles per Liter,Reported Phosphate Concentration
+R_NO3,micro Moles per Liter,Reported Nitrate Concentration
+R_NO2,micro Moles per Liter,Reported Nitrite Concentration
+R_NH4,micro Moles per Liter,Reported Ammonium Concentration
+R_CHLA,micrograms per Liter,Reported Chlorophyll-a
+R_PHAEO,micrograms per Liter,Reported Phaeophytin
+R_PRES,decibars,Pressure in decibars
+R_SAMP,n.a.,Sample number
+R_Oxy_µmol/kg,µmol/Kg,Reported Oxygen in micro moles per kilogram of seawater
+DIC1,µmol/Kg,Replicate 1 - Dissolved Inorganic Carbon in micro moles per kilogram of seawater
+DIC2,µmol/Kg,Replicate 2 - Dissolved Inorganic Carbon in micro moles per kilogram of seawater
+TA1,µmol/Kg,Replicate 1 - Total Alkalinity in micro moles per kilogram of seawater
+TA2,µmol/Kg,Replicate 2 - Total Alkalinity in micro moles per kilogram of seawater
+DIC Quality (Comments),n.a.,"Quality Comments associated with DIC sampling, drawing and analysis"
