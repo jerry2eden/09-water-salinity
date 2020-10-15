@@ -1,0 +1,68 @@
+ Prediction: [[ True]
+ [ True]
+ [ True]
+ ...
+ [ True]
+ [ True]
+ [ True]], Actual: 162807    True
+22398     True
+136704    True
+61221     True
+687320    True
+618038    True
+222008    True
+577121    True
+378685    True
+350675    True
+50441     True
+809755    True
+322123    True
+746793    True
+484655    True
+582362    True
+650329    True
+461374    True
+333834    True
+319403    True
+653266    True
+804232    True
+309182    True
+344887    True
+600972    True
+40690     True
+725305    True
+610307    True
+361497    True
+822290    True
+          ... 
+501553    True
+32688     True
+626118    True
+581100    True
+83742     True
+603799    True
+619511    True
+592562    True
+539671    True
+42314     True
+135555    True
+664682    True
+664021    True
+522256    True
+256220    True
+263689    True
+476347    True
+638940    True
+530119    True
+212776    True
+675988    True
+541132    True
+773081    True
+483248    True
+450147    True
+561504    True
+95031     True
+430017    True
+70353     True
+207218    True
+Name: Salnty, Length: 172973, dtype: bool 
