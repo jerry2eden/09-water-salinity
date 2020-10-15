@@ -1,0 +1,62 @@
+0,Column Header,Units,Description
+1,Cst_Cnt,n.a.,Auto-numbered Cast Count - all casts consecutively numbered. 1 is first station done
+2,Cruise_ID,n.a.,Cruise name: YYYY-MM-DD-Project Code-Ship Code
+3,Cruise,n.a.,Cruise name: YYYYMM
+4,Cruz_Sta,n.a.,Cruise name and station: YYYYMM 4 digit line and 4 digit station
+5,DbSta_ID,n.a.,4 digit line and 4 digit station
+6,Cast_ID,n.a.,Cast Identifier: Values [Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta]
+7,Sta_ID,n.a.,4 digit Line and 4 digit Station
+8,Quarter,n.a.,Quarter of the year: Winter (1) Spring (2) Summer (3) Fall (4)
+9,Sta_Code,n.a,"Station type code, see sidebar for definitions"
+10,Distance,Nautical miles,"Nautical miles from coast intercept, calc'd from est. lat & lon"
+11,Date,n.a.,Date MM/DD/YYYY
+12,Year,n.a.,4-digit Year YYYY
+13,Month,n.a.,Month
+14,Juilian_Date,n.a.,"OA Date: days since December 30, 1899"
+15,Juilian_Day,n.a.,Julian Day of the year
+16,Time,UTC,Time CTD is at terminal depth HH:MM:SS
+17,Lat_Dec,Decimal Degrees,Observed Latitude in decimal degrees
+18,Lat_Deg,Degrees,Observed Latitude in degrees
+19,Lat_Min,Minutes,Observed Latitude in minutes
+20,Lat_Hem,n.a.,Observed Latitude in Hemisphere
+21,Lon_Dec,Decimal Degrees,Observed Longitude in decimal degrees
+22,Lon_Deg,Degrees,Observed Longitude in degrees
+23,Lon_Min,Minutes,Observed Longitude in minutes
+24,Lon_Hem,n.a.,Observed Longitude in Hemisphere
+25,Rpt_Line,n.a.,Reported Line Number from the CalCOFI Data Report
+26,St_Line,n.a.,Nearest Standard Line
+27,Ac_Line,n.a.,Calculated actual line from observed lat and long
+28,Rpt_Sta,n.a.,Reported Station Number from the CalCOFI Data Report
+29,St_Station,n.a.,Nearest Standard Station Number
+30,Ac_Sta,n.a.,Calculated actual station from observed lat and long
+31,Bottom_D,Meters,Bottom depth in meters
+32,Ship_Name,n.a,Ship's name
+33,Ship_Code,n.a.,Ship's NODC Code
+34,Data_Type,n.a.,"Data Type Code, see sidebar for definitions"
+35,Order_Occ,n.a.,Order of stations occupied per cruise
+36,Event_Num,Number,Sequence of cruise happenings ordered by time
+37,Cruz_Leg,Number,Sections of a cruise usually broken up due to personnel transfers
+38,Orig_Sta_ID,n.a.,IEH Reported Station ID
+39,Data_Or,n.a.,Data Origin Code
+40,Cruz_Num,n.a,Cruise Designation by year and month
+41,IntChl,Milligrams per square meter,Integrated Chlorophyll
+42,IntC14,Milligrams Carbon per square meter,Integrated Primary Productivity
+43,Inc_Str,Time,Incubation Start Time PST HH:MM:SS
+44,Inc_End,Time,Incubation End Time PST HH:MM:SS
+45,PST_LAN,Time,Time of Local Apparent Noon PST HH:MM:SS
+46,Civil_T,Time,Time of Civil Twilight PST HH:MM:SS
+47,TimeZone,n.a.,Time Zone
+48,Wave_Dir,Number from 01-36,"Wave Direction reported using an abbreviated 360° azimuth circle with 00 representing True North, 18 represents 180°"
+49,Wave_Ht,Feet,Wave Height in Feet
+50,Wave_Prd,Seconds,Wave Period in Seconds
+51,Wind_Dir,Number from 01-36,"Reported using an abbreviated 360° azimuth circle with 0 representing True North, 18 representing 180°"
+52,Wind_Spd,Knots,Wind Speed in Knots
+53,Barometer,Millibars to the tenths,Atmospheric Pressure
+54,Dry_T,Degrees Celsius,Dry Air Temperature from a Sling Psychrometer
+55,Wet_T,Degrees Celsius,Wet Air Temperature from a Sling Psychrometer
+56,Wea,Number from 0-9,1 Digit Code from The World Meteorological Organization. Code source WMO 4501
+57,Cloud_Typ,Number from 0-9,1 Digit Code from The World Meteorological Organization. Code source WMO 0500
+58,Cloud_Amt,Number from 0-8,"1 Digit Code from The World Meteorological Organization. Code source WMO 2700, in oktas"
+59,Visibility,Number from 0-9,1 Digit Code from The World Meteorological Organization. Code source WMO 4300
+60,Secchi,Meters,Disk depth in Meters
+61,ForeIU,Number from 1-21,"Water color, Forel_Ule Scale. Only used in this dataset from 1988-10 through 1998-04"
