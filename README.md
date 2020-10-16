@@ -24,10 +24,10 @@ This was carried out to  better understand the data. Some of the details we chec
   * Shape of the data
   * General information on the data
   * Statistical summary of the data
-  
+The notebooks for Exploratory Data Analysis can be found [here](https://github.com/HamoyeHQ/09-water-salinity/tree/master/Data%20Visualization%20and%20EDA)
 ### Data Visualization
 
-Here we visualized the data to find relationships betweeen features and gained more insight into the data. 
+Here we visualized the data to find relationships betweeen features and gained more insight into the data. Notebooks for data visualization can be found [here](https://github.com/HamoyeHQ/09-water-salinity/tree/master/Data%20Visualization%20and%20EDA)
 
 **Relationship between Salinity and Temperature**
 
@@ -38,6 +38,8 @@ Here we checked for inconsistencies in the data and corrected them accordingly. 
  * Renaming columns
  * Handling missing values by dropping columns with more that 70% nan and filling nan with mean values
  * Normalization and Standardization
+ 
+ Code for data preparation can be found [here](https://github.com/HamoyeHQ/09-water-salinity/tree/master/data)
 
 ### Modelling
 We carried out predictive analysis on the data using various algorithms. We also checked for the feature importance for some algorithms. Based on the cross validation score XGBoost had the best performance. Below is the diagram for feature importance for XGBoost.
@@ -52,6 +54,8 @@ Time series analysis was done using the cast dataset. Predictions were made base
 **Time Series Analysis**
 
 ![Time series forcast](https://github.com/Justus-coded/09-water-salinity/blob/master/images/TS%202.JPG)
+
+More information on the modelling can be found [here](https://github.com/HamoyeHQ/09-water-salinity/tree/master/model)
 
 ### Pipeline Building
 Our pipeline was built using Keras sequential API, a deep learning API running on top of the machine learning platform TensorFlow. The components were built locally on the jupyter notebook as opposed to using a docker image, due to lack of computing power. Our model is ready for deployment using kuberflow and is reusable. However we could not test this model as a result of using gcp free tier
