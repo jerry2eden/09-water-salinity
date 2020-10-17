@@ -58,7 +58,7 @@ Time series analysis was done using the cast dataset. Predictions were made base
 More information on the modelling can be found [here](https://github.com/HamoyeHQ/09-water-salinity/tree/master/model)
 
 ### Pipeline Building
-Our pipeline was built using Keras sequential API, a deep learning API running on top of the machine learning platform TensorFlow. The components were built locally on the jupyter notebook as opposed to using a docker image, due to lack of computing power. Our model is ready for deployment using kuberflow and is reusable. However we could not test this model as a result of using gcp free tier
+Our pipeline was built using Keras sequential API, a deep learning API running on top of the machine learning platform TensorFlow. The components were built locally on the jupyter notebook as opposed to using a docker image, due to lack of computing power. Our model is ready for deployment using kuberflow and is reusable. However we could not test this model as a result of using gcp free tier. components for the pipelines are in the [model](https://github.com/HamoyeHQ/09-water-salinity/tree/master/model) folder
 
 
 
